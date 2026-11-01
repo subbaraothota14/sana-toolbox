@@ -1,0 +1,72 @@
+/* Sana Toolbox preview — plain CSS, no frameworks, no external requests. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+a { color: #0b5cab; }
+a:hover { text-decoration: none; }
+.site-header {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 16px 20px;
+}
+.site-header a.brand {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.site-header .preview-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 8px;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 12px; }
+h2 { font-size: 1.45rem; line-height: 1.3; margin: 36px 0 8px; }
+p { margin: 0 0 14px; }
+.lede { font-size: 1.15rem; color: #333; }
+.featured {
+  border: 1px solid #cfe3f5;
+  background: #f2f8fd;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 24px 0;
+}
+.featured h2 { margin-top: 0; font-size: 1.2rem; }
+.featured a { font-size: 1.1rem; font-weight: 700; }
+.coming-soon { margin-top: 32px; }
+.coming-soon li { margin-bottom: 8px; }
+.tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #555;
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.article-meta { color: #666; font-size: 0.95rem; }
+.article-body ul { padding-left: 22px; }
+.article-body li { margin-bottom: 8px; }
+hr { border: none; border-top: 1px solid #e2e2e2; margin: 32px 0; }
+.site-footer {
+  border-top: 1px solid #e2e2e2;
+  padding: 18px 20px;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  h1 { font-size: 1.6rem; }
+  main { padding: 20px 16px 40px; }
+}
