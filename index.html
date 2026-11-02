@@ -3,36 +3,212 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sana Toolbox — Free tools for students and new freelancers</title>
-<meta name="description" content="Free and cheap software tools for students and new freelancers, tested on the free version.">
+<title>Explore Tools — Sana Toolbox</title>
+<meta name="description" content="Explore free notes, writing, and design tools for students, judged only by what you get without paying. Free tiers checked October and November 2026.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="site-header">
-  <a class="brand" href="index.html">Sana Toolbox</a>
+  <div class="container">
+    <a class="brand" href="index.html">Sana Toolbox</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Explore</a>
+      <a href="best-free-notes-apps-for-students.html">Articles</a>
+    </nav>
+  </div>
 </header>
-<main>
-  <h1>Free tools for students and new freelancers, tested on the free version</h1>
-  <p class="lede">Sana Toolbox finds free and cheap software tools for students and new freelancers, and tests them on the free version — so you know what you actually get without paying.</p>
-  <p>Every recommendation is judged only by what you get without paying. Free tiers change often, so we always say when we checked.</p>
 
-  <section class="featured">
-    <h2>Featured article</h2>
-    <p><a href="best-free-notes-apps-for-students.html">Best Free Notes Apps for Students (Tested on the Free Version)</a></p>
-    <p>Five notes apps with free versions you can really use — Google NotebookLM, Notion, Obsidian, Google Keep, and Microsoft OneNote — judged only by what you get without paying.</p>
-  </section>
+<main class="container">
+  <h1>Explore tools</h1>
+  <p class="lede">Fifteen notes, writing, and design tools with free versions you can really use, judged only by what you get without paying. Free tiers checked October and November 2026.</p>
 
-  <section class="coming-soon">
-    <h2>Coming soon</h2>
-    <p>Next planned topics. These articles are not written yet.</p>
-    <ul>
-      <li>Best free writing help tools for students and new freelancers <span class="tag">Coming soon</span></li>
-      <li>Best free design tools for students and new freelancers <span class="tag">Coming soon</span></li>
-    </ul>
-  </section>
+  <div class="search-box">
+    <label for="search">Search tools</label>
+    <input type="search" id="search" name="search" placeholder="Search by name, feature, or use case… e.g. offline, flashcards, grammar, paraphrase, handwriting, templates, vector, psd" autocomplete="off">
+  </div>
+
+  <div class="filters">
+    <fieldset class="filter-group">
+      <legend>Pricing</legend>
+      <label><input type="checkbox" name="pricing" value="completely-free"> Completely free</label>
+      <label><input type="checkbox" name="pricing" value="free-forever"> Free forever</label>
+      <label><input type="checkbox" name="pricing" value="freemium"> Freemium</label>
+    </fieldset>
+
+    <fieldset class="filter-group">
+      <legend>Platform</legend>
+      <label><input type="checkbox" name="platform" value="web"> Web</label>
+      <label><input type="checkbox" name="platform" value="windows"> Windows</label>
+      <label><input type="checkbox" name="platform" value="macos"> macOS</label>
+      <label><input type="checkbox" name="platform" value="linux"> Linux</label>
+      <label><input type="checkbox" name="platform" value="android"> Android</label>
+      <label><input type="checkbox" name="platform" value="ios"> iOS</label>
+    </fieldset>
+
+    <fieldset class="filter-group">
+      <legend>Category</legend>
+      <label><input type="checkbox" name="category" value="notes"> Notes</label>
+      <label><input type="checkbox" name="category" value="writing"> Writing</label>
+      <label><input type="checkbox" name="category" value="design"> Design</label>
+    </fieldset>
+  </div>
+
+  <div class="results-bar">
+    <p id="result-count" aria-live="polite">Showing 15 of 15 tools</p>
+    <button class="button" type="button" id="clear-filters">Clear search and filters</button>
+  </div>
+
+  <p class="meta">Platform tags show only what the source article states. A tool with no stated platform is hidden when a platform filter is active. Pricing labels are explained on each tool page.</p>
+
+  <div class="tool-grid" id="tool-grid">
+    <article class="tool-card" data-name="Google NotebookLM" data-pricing="freemium" data-platforms="" data-category="notes" data-search="google notebooklm gemini notebook ai study tool upload notes slides pdfs questions citations study guides quizzes flashcards audio summaries 100 notebooks 50 sources 500000 words exam revision internet">
+      <h2><a href="tools/google-notebooklm.html">Google NotebookLM</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-notes">Notes</span></p>
+      <p>Google's AI study tool. You upload your own notes, slides, and PDFs, and it answers questions using only those files.</p>
+      <p class="meta">Platforms: not stated in the article. Needs internet.</p>
+      <p class="meta">Best for: revising from your own course material.</p>
+      <p><a href="tools/google-notebooklm.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Notion" data-pricing="freemium" data-platforms="" data-category="notes" data-search="notion notes todo lists planners tables calendar mail view semester organize deadlines assignments 5 mb uploads 7 day history guests blocks school email plus business ai offline sync">
+      <h2><a href="tools/notion.html">Notion</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-notes">Notes</span></p>
+      <p>One app for notes, to-do lists, planners, and simple tables you can sort and filter.</p>
+      <p class="meta">Platforms: phone and computer apps (article does not name specific systems).</p>
+      <p class="meta">Best for: organizing a whole semester in one place.</p>
+      <p><a href="tools/notion.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Obsidian" data-pricing="free-forever" data-platforms="" data-category="notes" data-search="obsidian offline private notes text files own device plugins flashcards sync publish personal use no account">
+      <h2><a href="tools/obsidian.html">Obsidian</a></h2>
+      <p><span class="badge badge-forever">Free forever</span> <span class="badge badge-notes">Notes</span></p>
+      <p>A notes app that stores your notes as simple text files on your own device.</p>
+      <p class="meta">Platforms: not stated in the article. Works fully offline.</p>
+      <p class="meta">Best for: private, offline notes you fully own.</p>
+      <p><a href="tools/obsidian.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Google Keep" data-pricing="completely-free" data-platforms="" data-category="notes" data-search="google keep sticky notes fast capture labels colors pins reminders voice memos photos sync unlimited">
+      <h2><a href="tools/google-keep.html">Google Keep</a></h2>
+      <p><span class="badge badge-free">Completely free</span> <span class="badge badge-notes">Notes</span></p>
+      <p>Google's simple sticky-note app, built for fast capture.</p>
+      <p class="meta">Platforms: not stated in the article. Syncs to all your devices.</p>
+      <p class="meta">Best for: capturing a thought in seconds.</p>
+      <p><a href="tools/google-keep.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Microsoft OneNote" data-pricing="freemium" data-platforms="web windows macos android ios" data-category="notes" data-search="microsoft onenote binder notebook sections pages handwriting pen images onedrive offline sync windows mac android iphone web copilot microsoft 365">
+      <h2><a href="tools/microsoft-onenote.html">Microsoft OneNote</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-notes">Notes</span></p>
+      <p>Microsoft's free digital notebook, organized like a real binder.</p>
+      <p class="meta">Platforms: Windows, Mac, Android, iPhone, web.</p>
+      <p class="meta">Best for: a binder-style notebook, including handwriting.</p>
+      <p><a href="tools/microsoft-onenote.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Grammarly" data-pricing="freemium" data-platforms="" data-category="writing" data-search="grammarly grammar spelling checker browser extension desktop app mobile keyboard tone ai prompts 100 prompts emails assignments proposals mistakes">
+      <h2><a href="tools/grammarly.html">Grammarly</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-writing">Writing</span></p>
+      <p>A writing checker that fixes spelling and grammar wherever you type: in your browser, in documents, and on your phone keyboard.</p>
+      <p class="meta">Platforms: browser extension, desktop app, mobile keyboard (article does not name specific systems).</p>
+      <p class="meta">Best for: checking every email, assignment, and proposal for mistakes before it goes out.</p>
+      <p><a href="tools/grammarly.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="ChatGPT" data-pricing="freemium" data-platforms="" data-category="writing" data-search="chatgpt ai chatbot draft emails essays brainstorm explain topics web search file uploads image generation voice chat first draft unlimited text">
+      <h2><a href="tools/chatgpt.html">ChatGPT</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-writing">Writing</span></p>
+      <p>An AI chatbot. You type a question or a request, and it writes back: a draft, an explanation, ideas, or an edit of your text.</p>
+      <p class="meta">Platforms: not stated in the article.</p>
+      <p class="meta">Best for: a fast first draft, a hard topic explained simply, or a rough email turned into a clean one.</p>
+      <p><a href="tools/chatgpt.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Claude" data-pricing="freemium" data-platforms="" data-category="writing" data-search="claude ai chatbot long writing essays reports detailed edits sonnet model projects artifacts web search file uploads careful edits five hour window">
+      <h2><a href="tools/claude.html">Claude</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-writing">Writing</span></p>
+      <p>An AI chatbot built for long, careful writing: essays, reports, and detailed edits.</p>
+      <p class="meta">Platforms: not stated in the article.</p>
+      <p class="meta">Best for: long writing with careful, steady edits.</p>
+      <p><a href="tools/claude.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="QuillBot" data-pricing="freemium" data-platforms="" data-category="writing" data-search="quillbot paraphrase rewrite summarizer citation apa mla grammar checker translator 125 words reword shorten paragraph fluency standard">
+      <h2><a href="tools/quillbot.html">QuillBot</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-writing">Writing</span></p>
+      <p>A paraphrasing tool. You paste in a sentence or paragraph, and it rewrites it in different words.</p>
+      <p class="meta">Platforms: not stated in the article.</p>
+      <p class="meta">Best for: rewording a clumsy sentence or shortening a paragraph.</p>
+      <p><a href="tools/quillbot.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="LanguageTool" data-pricing="freemium" data-platforms="" data-category="writing" data-search="languagetool grammar style checker languages multilingual spanish french german portuguese 2000 characters ai rephrasings">
+      <h2><a href="tools/languagetool.html">LanguageTool</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-writing">Writing</span></p>
+      <p>A grammar and style checker that works in more than 30 languages, not just English.</p>
+      <p class="meta">Platforms: website; browser extension availability uncertain in the article.</p>
+      <p class="meta">Best for: writing in two or more languages.</p>
+      <p><a href="tools/languagetool.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Canva" data-pricing="freemium" data-platforms="web android ios" data-category="design" data-search="canva templates social posts presentations posters videos documents drag drop editor 1000 design types photos graphics audio 5gb storage brand kit colours export pdf jpg png offline affinity background remover watermark free">
+      <h2><a href="tools/canva.html">Canva</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-design">Design</span></p>
+      <p>An online design tool built around templates: social posts, presentations, posters, videos, and documents, made by dragging pieces into place.</p>
+      <p class="meta">Platforms: web browser, Android, iOS apps.</p>
+      <p class="meta">Best for: a good-looking post, presentation, or poster fast from a template, without design training.</p>
+      <p><a href="tools/canva.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Figma" data-pricing="freemium" data-platforms="" data-category="design" data-search="figma ui design screens app website layouts wireframes prototypes real time collaboration drafts files pages ai credits education professional students portfolio dev mode templates">
+      <h2><a href="tools/figma.html">Figma</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-design">Design</span></p>
+      <p>A design tool for screens: app and website layouts, wireframes, and prototypes, built for working together in real time.</p>
+      <p class="meta">Platforms: not stated in the article.</p>
+      <p class="meta">Best for: learning UI design, building portfolio pieces, or a small team project where a few shared files are enough.</p>
+      <p><a href="tools/figma.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Photopea" data-pricing="freemium" data-platforms="web" data-category="design" data-search="photopea photoshop browser photo editor layers masks psd raw dng cr2 nef arw vector graphics filters no install no account ads premium retouching">
+      <h2><a href="tools/photopea.html">Photopea</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-design">Design</span></p>
+      <p>A Photoshop-style photo editor that runs entirely in your browser: layers, masks, and full PSD files, with nothing to install.</p>
+      <p class="meta">Platforms: web browser.</p>
+      <p class="meta">Best for: real photo editing, retouching, or a PSD file someone sent you, without installing software or paying.</p>
+      <p><a href="tools/photopea.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="GIMP" data-pricing="completely-free" data-platforms="windows macos linux" data-category="design" data-search="gimp gnu image manipulation program open source free desktop photo editor retouching layers masks brushes batch script windows mac linux no subscription own forever">
+      <h2><a href="tools/gimp.html">GIMP</a></h2>
+      <p><span class="badge badge-free">Completely free</span> <span class="badge badge-design">Design</span></p>
+      <p>A free, open-source photo editor for your computer: retouching, layered graphics, and digital painting, like Photoshop without the subscription.</p>
+      <p class="meta">Platforms: Windows, macOS, Linux.</p>
+      <p class="meta">Best for: a full desktop photo editor you own forever, especially on a computer you control.</p>
+      <p><a href="tools/gimp.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Inkscape" data-pricing="completely-free" data-platforms="windows macos linux" data-category="design" data-search="inkscape vector logos icons diagrams illustrations svg pen node text paths gradients alignment pdf eps png ai files cmyk print windows mac linux open source free">
+      <h2><a href="tools/inkscape.html">Inkscape</a></h2>
+      <p><span class="badge badge-free">Completely free</span> <span class="badge badge-design">Design</span></p>
+      <p>A free, open-source vector editor for logos, icons, diagrams, and illustrations: shapes that stay sharp at any size.</p>
+      <p class="meta">Platforms: Windows, macOS, Linux.</p>
+      <p class="meta">Best for: logos, icons, posters, or diagrams that must stay sharp at any size.</p>
+      <p><a href="tools/inkscape.html">View details →</a></p>
+    </article>
+  </div>
+
+  <div class="empty-state" id="empty-state" hidden>
+    <h2>No tools match your search</h2>
+    <p>Try a different search term or clear the filters to see all tools again.</p>
+  </div>
+
+  <p class="note">Sources: the approved articles “Best Free Notes Apps for Students (Tested on the Free Version),” “Best Free Writing Help Tools for Students and New Freelancers (Tested on the Free Version),” and “Best Free Design Tools for Students and New Freelancers (Tested on the Free Version).” Free tiers checked October and November 2026. If a limit here no longer matches the tool's pricing page, the pricing page is right. The articles give no official website links, so none are listed on the tool pages. No ads, no affiliate links, no tracking.</p>
+
+  <footer class="site-footer">
+    <p>Sana Toolbox — local preview build. No ads, no affiliate links, no tracking.</p>
+  </footer>
 </main>
-<footer class="site-footer">
-  <p>Sana Toolbox — No ads, no affiliate links, no tracking.</p>
-</footer>
+
+<script src="app.js"></script>
 </body>
 </html>
