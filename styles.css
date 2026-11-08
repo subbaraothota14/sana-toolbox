@@ -144,6 +144,7 @@ h2 { font-size: 1.3rem; line-height: 1.3; margin: 0 0 8px; }
 .badge-notes { background: #EDE9FE; color: #4C1D95; }
 .badge-writing { background: #FCE7F3; color: #9D174D; }
 .badge-design { background: #FFEDD5; color: #9A3412; }
+.badge-storage { background: #E0E7FF; color: #3730A3; }
 
 .empty-state {
   background: var(--surface);

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Explore Tools — Sana Toolbox</title>
-<meta name="description" content="Explore free notes, writing, and design tools for students, judged only by what you get without paying. Free tiers checked October and November 2026.">
+<meta name="description" content="Explore free notes, writing, design, and storage tools for students, judged only by what you get without paying. Free tiers checked October and November 2026.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
 
 <main class="container">
   <h1>Explore tools</h1>
-  <p class="lede">Fifteen notes, writing, and design tools with free versions you can really use, judged only by what you get without paying. Free tiers checked October and November 2026.</p>
+  <p class="lede">Twenty notes, writing, design, and storage tools with free versions you can really use, judged only by what you get without paying. Free tiers checked October and November 2026.</p>
 
   <div class="search-box">
     <label for="search">Search tools</label>
@@ -50,11 +50,12 @@
       <label><input type="checkbox" name="category" value="notes"> Notes</label>
       <label><input type="checkbox" name="category" value="writing"> Writing</label>
       <label><input type="checkbox" name="category" value="design"> Design</label>
+      <label><input type="checkbox" name="category" value="storage"> Storage</label>
     </fieldset>
   </div>
 
   <div class="results-bar">
-    <p id="result-count" aria-live="polite">Showing 15 of 15 tools</p>
+    <p id="result-count" aria-live="polite">Showing 20 of 20 tools</p>
     <button class="button" type="button" id="clear-filters">Clear search and filters</button>
   </div>
 
@@ -195,6 +196,51 @@
       <p class="meta">Best for: logos, icons, posters, or diagrams that must stay sharp at any size.</p>
       <p><a href="tools/inkscape.html">View details →</a></p>
     </article>
+
+    <article class="tool-card" data-name="Google Drive" data-pricing="freemium" data-platforms="web windows macos android ios" data-category="storage" data-search="google drive cloud storage 15 gb free gmail photos docs sheets slides sync share folder">
+      <h2><a href="tools/google-drive.html">Google Drive</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-storage">Storage</span></p>
+      <p>Google's cloud storage: 15 GB free, shared across Drive, Gmail, and Photos, with Docs, Sheets, and Slides built in.</p>
+      <p class="meta">Platforms: Windows, Mac, Android, iPhone, web.</p>
+      <p class="meta">Best for: the biggest free allowance from a mainstream provider, if you already use Gmail and Docs.</p>
+      <p><a href="tools/google-drive.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Microsoft OneDrive" data-pricing="freemium" data-platforms="web windows macos android ios" data-category="storage" data-search="microsoft onedrive cloud storage 5 gb free windows desktop documents pictures backup personal vault word excel outlook">
+      <h2><a href="tools/microsoft-onedrive.html">Microsoft OneDrive</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-storage">Storage</span></p>
+      <p>Microsoft's cloud storage, built into Windows: your Desktop, Documents, and Pictures folders backed up online.</p>
+      <p class="meta">Platforms: Windows, Mac, iPhone, Android, web.</p>
+      <p class="meta">Best for: backing up Windows desktop folders without installing anything new.</p>
+      <p><a href="tools/microsoft-onedrive.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="Dropbox" data-pricing="freemium" data-platforms="windows macos linux" data-category="storage" data-search="dropbox cloud storage file sync 2 gb free 30 day recovery version history share link three devices">
+      <h2><a href="tools/dropbox.html">Dropbox</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-storage">Storage</span></p>
+      <p>The original file-sync service: a folder on your computer that syncs to the cloud, with sharing links everyone knows how to open.</p>
+      <p class="meta">Platforms: Windows, Mac, Linux.</p>
+      <p class="meta">Best for: sharing files with people who already use Dropbox.</p>
+      <p><a href="tools/dropbox.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="MEGA" data-pricing="freemium" data-platforms="web windows macos linux android ios" data-category="storage" data-search="mega cloud storage 20 gb free encryption zero knowledge privacy transfer quota versions recovery key">
+      <h2><a href="tools/mega.html">MEGA</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-storage">Storage</span></p>
+      <p>Privacy-first cloud storage: 20 GB free with zero-knowledge encryption, so only you hold the keys.</p>
+      <p class="meta">Platforms: Windows, Mac, Linux, iPhone, Android, web.</p>
+      <p class="meta">Best for: the most free space with real encryption on the free plan.</p>
+      <p><a href="tools/mega.html">View details →</a></p>
+    </article>
+
+    <article class="tool-card" data-name="pCloud" data-pricing="freemium" data-platforms="" data-category="storage" data-search="pcloud cloud storage 10 gb free virtual drive lifetime plan 219 499 premium crypto encryption swiss pay once">
+      <h2><a href="tools/pcloud.html">pCloud</a></h2>
+      <p><span class="badge badge-freemium">Freemium</span> <span class="badge badge-storage">Storage</span></p>
+      <p>Swiss cloud storage with a virtual drive and a one-time lifetime plan instead of a monthly subscription.</p>
+      <p class="meta">Platforms: not stated in the article. Desktop and mobile apps with a virtual drive.</p>
+      <p class="meta">Best for: paying once, not every month, for storage.</p>
+      <p><a href="tools/pcloud.html">View details →</a></p>
+    </article>
   </div>
 
   <div class="empty-state" id="empty-state" hidden>
@@ -202,10 +248,10 @@
     <p>Try a different search term or clear the filters to see all tools again.</p>
   </div>
 
-  <p class="note">Sources: the approved articles “Best Free Notes Apps for Students (Tested on the Free Version),” “Best Free Writing Help Tools for Students and New Freelancers (Tested on the Free Version),” and “Best Free Design Tools for Students and New Freelancers (Tested on the Free Version).” Free tiers checked October and November 2026. If a limit here no longer matches the tool's pricing page, the pricing page is right. The articles give no official website links, so none are listed on the tool pages. No ads, no affiliate links, no tracking.</p>
+  <p class="note">Sources: the approved articles “Best Free Notes Apps for Students (Tested on the Free Version),” “Best Free Writing Help Tools for Students and New Freelancers (Tested on the Free Version),” and “Best Free Design Tools for Students and New Freelancers (Tested on the Free Version),” plus the draft Article 4, “Best Free Storage and Backup Tools for Students and New Freelancers (Tested on the Free Version)” — draft, not yet approved. Free tiers checked October and November 2026. If a limit here no longer matches the tool's pricing page, the pricing page is right. The articles give no official website links, so none are listed on the tool pages. No ads, no affiliate links, no tracking.</p>
 
   <footer class="site-footer">
-    <p>Sana Toolbox — local preview build. No ads, no affiliate links, no tracking.</p>
+    <p>Sana Toolbox — local preview build. Article 4 draft only, not live. No ads, no affiliate links, no tracking.</p>
   </footer>
 </main>
 
