@@ -45,6 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
     box.addEventListener("change", applyFilters);
   });
 
+
+  // Category hub cards: filter to one category and jump to the grid.
+  document.querySelectorAll(".category-card").forEach(function (card) {
+    card.addEventListener("click", function () {
+      var value = card.getAttribute("data-filter-category");
+      document.querySelectorAll('input[name="category"]').forEach(function (box) {
+        box.checked = box.value === value;
+      });
+      applyFilters();
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.getElementById("browse").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+    });
+  });
+
   clearButton.addEventListener("click", function () {
     searchInput.value = "";
     document.querySelectorAll(".filters input").forEach(function (box) {
